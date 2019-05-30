@@ -2,10 +2,11 @@
 
 
 
-**一般的网页结构：**
+**一般的网页结构：
 
-<!DOCTYPE html>   --->声明:它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令
 ```
+<!DOCTYPE html>   --->声明:它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令
+
 <html lang="en">  --->这里的lang="en"可以删除，如果不删除的，用谷歌之类打开，它会认为是英文的，会自动给翻译（如果设置了自动翻译的话）
 
 <head>  --->头部标签
@@ -18,19 +19,23 @@
 
 <meta name="author" content="violi"> --->作者名称
 
-    <title>网页标题</title>
+​    <title>网页标题</title>
 
 </head>
 
 <body>  --->body标签 主要的页面元素就是在body标签中完成的
 
-    <h1>这是标题标签</h1>  
+<h1>这是标题标签</h1>  
 
-    <div>这里是内容</div>
+<div>这里是内容</div>
 
 </body>
 
 </html>
+```
+
+
+
 ```
 
 
@@ -131,16 +136,24 @@
 
 <footer></footer>底部
 
+
+```
+
 如图：
 
 ![img](C:/Users/yafei/AppData/Local/YNote/data/m15508511041_1@163.com/cc1721c911bf4ede8047c029eb6f0ebd/clipboard.png)
 
 
 
-**常用特殊字符**
+**
+
+```
+常用特殊字符**
 
 1、特殊字符：空格：&nbsp
 
 2、显示大于和小于号：小于&lt  大于&gt
 
 3、版权：&copy
+```
+

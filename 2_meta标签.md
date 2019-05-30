@@ -1,5 +1,6 @@
 **mata的一些用法：**
 
+```
 <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
 
 <meta name="HandheldFriendly" content="true">
@@ -33,9 +34,11 @@
 <meta name="x5-page-mode" content="app">
 
 <!-- windows phone 点击无高光 -->
+```
 
 
 
+```
 1.添加对手机设备的支持
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -119,3 +122,4 @@ maximum-scale	允许用户的最大缩放值，为一个数字，可以带小数
 height	设置layout viewport  的高度，这个属性对我们并不重要，很少使用
 
 user-scalable	是否允许用户进行缩放，值为 "no" 或 "yes", no 代表不允许，yes 代表允许集体参考： <https://www.runoob.com/w3cnote/viewport-deep-understanding.html>
+```
